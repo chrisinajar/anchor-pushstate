@@ -1,6 +1,6 @@
 {
   "name": "anchor-pushstate",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Simple stateless virtual-dom element that will pushstate the href given",
   "main": "index.js",
   "scripts": {
