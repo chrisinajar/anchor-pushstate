@@ -1,0 +1,40 @@
+{
+  "name": "anchor-pushstate",
+  "version": "1.0.0",
+  "description": "Simple stateless virtual-dom element that will pushstate the href given",
+  "main": "index.js",
+  "scripts": {
+    "test": "semistandard && tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisinajar/anchor-pushstate.git"
+  },
+  "keywords": [
+    "virtual-dom",
+    "pushstate",
+    "anchor",
+    "component",
+    "hyperscript",
+    "mercury"
+  ],
+  "author": "Chris Vickery <chrisinajar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisinajar/anchor-pushstate/issues"
+  },
+  "homepage": "https://github.com/chrisinajar/anchor-pushstate#readme",
+  "devDependencies": {
+    "dispatch-event": "^1.0.0",
+    "observ": "^0.2.0",
+    "semistandard": "^7.0.5",
+    "tape": "^4.5.1",
+    "thermometer": "^1.4.0"
+  },
+  "dependencies": {
+    "global": "^4.3.0",
+    "observ-history": "^1.0.3",
+    "value-event": "^5.1.0",
+    "virtual-dom": "^2.1.1"
+  }
+}
